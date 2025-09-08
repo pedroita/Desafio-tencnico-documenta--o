@@ -45,7 +45,6 @@ Using: Chrome 125.0.0.0, Lighthouse 12.3.0
 | **Total Blocking Time** | - | 0ms |
 | **Cumulative Layout Shift** | - | 0 |
 
-<img width="1525" height="553" alt="image" src="https://github.com/user-attachments/assets/a1bd76eb-14f5-4aed-8a56-88229900488f" />
 
 
 ## 🔄 Fluxo de Dados
