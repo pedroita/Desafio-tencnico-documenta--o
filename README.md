@@ -61,6 +61,6 @@ Frontend em React (Vite + Axios + MUI) que:
 - Nginx como proxy reverso para roteamento das APIs
 
 🚀 Demonstração
-<img width="4497" height="2223" alt="deepseek_mermaid_20250908_cbf25c" src="https://github.com/user-attachments/assets/e4ef57af-81f3-47d4-b06a-c5afd7b3bdf1" />
+![Vídeo do WhatsApp de 2025-09-08 à(s) 11 01 17_8f08f8a7 mp4](https://github.com/user-attachments/assets/41da1584-475d-4b0e-a1e7-ff88868fd2f1)
 
 https://n8n-table-app.vercel.app/
