@@ -10,6 +10,9 @@ O sistema é composto por três repositórios principais:
 - [**fake-api-project**](https://github.com/pedroita/fake-api-project) - API em Node.js + Express que faz a **descriptografia** e envia para o N8N
 - [**n8n-table-app**](https://github.com/pedroita/n8n-table-app/tree/master) - Frontend em React (Vite) para consumir e visualizar os dados
 
+## 🗄️ Banco de Dados
+O sistema utiliza PostgreSQL como banco de dados principal para armazenamento das informações processadas.
+
 ## 🔧 Componentes da Infraestrutura
 - AWS EC2 → Hospeda os serviços backend (fake-api-service e fake-api-project)
 
@@ -21,7 +24,8 @@ O sistema é composto por três repositórios principais:
 
 - Vercel → Hospedagem do frontend React (n8n-table-app)
 
-- N8N Cloud → Orquestra os workflows (listapersons, deletetabela, etc.)
+- N8N Cloud → Orquestra os workflows (listapersons, deletetabela)
+- PostgreSQL → Banco de dados para armazenamento das informações
 
 # 🚀 Performance
 
@@ -45,10 +49,14 @@ Using: Chrome 125.0.0.0, Lighthouse 12.3.0
 | **Total Blocking Time** | - | 0ms |
 | **Cumulative Layout Shift** | - | 0 |
 
+## 🏗️ Arquitetura do Sistema
+
+<img width="4332" height="261" alt="deepseek_mermaid_20250908_231d27" src="https://github.com/user-attachments/assets/14629087-e1c1-4aad-8fea-e5e5a1d5e2b3" />
 
 
 ## 🔄 Fluxo de Dados
-<img width="4497" height="2223" alt="deepseek_mermaid_20250908_cbf25c" src="https://github.com/user-attachments/assets/0730a907-36a7-433e-8875-54763cf55aa0" />
+
+<img width="5340" height="2709" alt="deepseek_mermaid_20250908_a1d29d" src="https://github.com/user-attachments/assets/0a460ea2-e4ba-4b58-9c3d-5d6688dfc293" />
 
 
 ## 📂 Estrutura dos Repositórios
