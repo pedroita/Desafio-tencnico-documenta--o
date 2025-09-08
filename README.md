@@ -23,6 +23,31 @@ O sistema é composto por três repositórios principais:
 
 - N8N Cloud → Orquestra os workflows (listapersons, deletetabela, etc.)
 
+# 🚀 Performance
+
+### Latest Performance Report for:
+https://n8n-table-app.vercel.app/
+
+**Report generated:**  
+Mon, Sep 8, 2025 7:30 AM -0700  
+Test Server Location: Vancouver, Canada  
+Using: Chrome 125.0.0.0, Lighthouse 12.3.0  
+
+---
+
+### GTmetrix Grade
+
+| Metric | Score | Value |
+|---|---|---|
+| **Performance** | 99% | A |
+| **Structure** | 94% | A |
+| **Largest Contentful Paint** | - | 821ms |
+| **Total Blocking Time** | - | 0ms |
+| **Cumulative Layout Shift** | - | 0 |
+
+<img width="1525" height="553" alt="image" src="https://github.com/user-attachments/assets/a1bd76eb-14f5-4aed-8a56-88229900488f" />
+
+
 ## 🔄 Fluxo de Dados
 <img width="4497" height="2223" alt="deepseek_mermaid_20250908_cbf25c" src="https://github.com/user-attachments/assets/0730a907-36a7-433e-8875-54763cf55aa0" />
 
