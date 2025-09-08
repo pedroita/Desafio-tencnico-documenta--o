@@ -4,9 +4,8 @@ Este projeto implementa um fluxo completo de **geração, descriptografia e cons
 
 ## 📋 Visão Geral
 
-O sistema é composto por três repositórios principais:
+O sistema é composto por dois repositórios principais:
 
-- [**fake-api-service**](https://github.com/pedroita/fake-api-service) - Gera dados **criptografados**
 - [**fake-api-project**](https://github.com/pedroita/fake-api-project) - API em Node.js + Express que faz a **descriptografia** e envia para o N8N
 - [**n8n-table-app**](https://github.com/pedroita/n8n-table-app/tree/master) - Frontend em React (Vite) para consumir e visualizar os dados
 
@@ -25,7 +24,26 @@ O sistema utiliza PostgreSQL como banco de dados principal para armazenamento da
 - Vercel → Hospedagem do frontend React (n8n-table-app)
 
 - N8N Cloud → Orquestra os workflows (listapersons, deletetabela)
+
+Inser Persons
+<img width="1017" height="405" alt="image" src="https://github.com/user-attachments/assets/530dd3cd-977c-48a5-b60c-87666881908c" />
+
+<img width="1840" height="745" alt="image" src="https://github.com/user-attachments/assets/aab0ab1f-100c-4dca-be38-1ba0419ad6a4" />
+
+Lista pessoas
+<img width="1193" height="507" alt="image" src="https://github.com/user-attachments/assets/0ba8e02d-8321-4710-bcb6-fd11475f73f5" />
+<img width="1835" height="886" alt="image" src="https://github.com/user-attachments/assets/3a79bbf0-a7a1-4500-9fe0-dbb7dfff05ec" />
+<img width="1869" height="742" alt="image" src="https://github.com/user-attachments/assets/1d49996b-f546-4de8-8815-a96e1e4a03ef" />
+
+Trucate
+<img width="1404" height="724" alt="image" src="https://github.com/user-attachments/assets/9d268f45-ca32-4c90-a95f-b428aa091d90" />
+<img width="1808" height="913" alt="image" src="https://github.com/user-attachments/assets/35f3d8c3-f813-457a-aacd-5b5b408af3ba" />
+
+
 - PostgreSQL → Banco de dados para armazenamento das informações
+<img width="766" height="752" alt="image" src="https://github.com/user-attachments/assets/5bbeafaf-bf44-4ada-985a-c1bb8225efa2" />
+
+
 
 # 🚀 Performance
 
@@ -60,8 +78,7 @@ Using: Chrome 125.0.0.0, Lighthouse 12.3.0
 
 
 ## 📂 Estrutura dos Repositórios
-📦 fake-api-service
-API Node.js responsável por gerar dados criptografados. Simula uma fonte de dados segura.
+
 
 ## 📦 fake-api-project
 API Node.js responsável por:
