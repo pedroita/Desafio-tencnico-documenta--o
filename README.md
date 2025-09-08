@@ -69,34 +69,13 @@ Using: Chrome 125.0.0.0, Lighthouse 12.3.0
 
 ## 🏗️ Arquitetura do Sistema
 
-flowchart LR
-    A[Fake API Service] -->|Dados criptografados| B[Fake API Project]
-    B -->|Dados descriptografados| C[N8N Workflow]
-    C -->|JSON processado| D[(PostgreSQL)]
-    D --> E[Frontend Vercel]
+<img width="4332" height="261" alt="deepseek_mermaid_20250908_66172a" src="https://github.com/user-attachments/assets/c65282d1-6c31-47f4-abc8-343c9f39b819" />
+
 
 ## 🔄 Fluxo de Dados
 
-sequenceDiagram
-    participant User as Usuário (Frontend)
-    participant Front as React App (Vercel)
-    participant Nginx as Nginx Proxy (AWS)
-    participant API as Fake API Project (PM2 + Node.js)
-    participant N8N as N8N Cloud
-    participant DB as PostgreSQL
+<img width="5052" height="2637" alt="deepseek_mermaid_20250908_46367a" src="https://github.com/user-attachments/assets/30cf672f-afa4-43d9-8f1c-6dfb86f118bc" />
 
-    User->>Front: Acessa aplicação (UI)
-    Front->>Nginx: GET /api/fetch-and-decrypt
-    Nginx->>API: Encaminha requisição
-    API->>API: Gera e criptografa dados
-    API->>N8N: Envia dados criptografados para URL do N8N
-    N8N->>N8N: Processa e descriptografa dados
-    N8N->>DB: Armazena dados processados
-    N8N-->>API: Confirmação "Workflow started"
-    API-->>Front: Retorna resposta JSON
-    Front->>N8N: Consulta dados via webhooks
-    N8N-->>Front: Retorna dados processados
-    Front-->>User: Exibe dados processados
 
 
 
