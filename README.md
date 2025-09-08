@@ -24,6 +24,8 @@ O sistema é composto por três repositórios principais:
 - N8N Cloud → Orquestra os workflows (listapersons, deletetabela, etc.)
 
 ## 🔄 Fluxo de Dados
+<img width="4497" height="2223" alt="deepseek_mermaid_20250908_cbf25c" src="https://github.com/user-attachments/assets/0730a907-36a7-433e-8875-54763cf55aa0" />
+
 
 ## 📂 Estrutura dos Repositórios
 📦 fake-api-service
@@ -59,5 +61,6 @@ Frontend em React (Vite + Axios + MUI) que:
 - Nginx como proxy reverso para roteamento das APIs
 
 🚀 Demonstração
+<img width="4497" height="2223" alt="deepseek_mermaid_20250908_cbf25c" src="https://github.com/user-attachments/assets/e4ef57af-81f3-47d4-b06a-c5afd7b3bdf1" />
 
 https://n8n-table-app.vercel.app/
